@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
 
-AUTHOR = u'Firstname Lastname'
+AUTHOR = u'Bruno Adele'
 #AUTHOR_LINK = "http://bruno.adele.im"
 #AUTHOR_IMG = "http://bruno.adele.im/static/bruno.jpg"
 SITENAME = u'Pelicanthemes'
