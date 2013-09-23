@@ -125,11 +125,11 @@ def generate_summary_preview(themesroot):
         article += "%s\n\n" % ("=" * len(title))
         article += ".. image:: /static/small_%s_index.png\n" % theme
         # article += "   :width: 40%\n"
-        article += "   :target: /static/%s_index.png\n\n" % theme
+        article += "   :target: /details-information-for-%s-theme.html\n\n" % theme
 
         article += ".. image:: /static/small_%s_article.png\n" % theme
         # article += "   :width: 40%\n"
-        article += "   :target: /static/%s_article.png\n\n" % theme
+        article += "   :target: /details-information-for-%s-theme.html\n\n" % theme
         article += "\n\n\n\n"
     try:
         # This will create a new file or **overwrite an existing file**.
